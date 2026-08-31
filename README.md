@@ -97,20 +97,3 @@ Enter The Choice of number 1 to 3:::: 3
 Good Bye
 ```
 
-## Technologies Used
-
-- Python 3
-- VS Code
-- Git & GitHub
-
-## How to Run
-
-1. Install Python.
-2. Open the project folder in VS Code.
-3. Open the terminal.
-4. Run the following command:
-
-```bash
-python LogicBox.py
-```
-
