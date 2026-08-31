@@ -114,15 +114,3 @@ Good Bye
 python LogicBox.py
 ```
 
-## Project Structure
-
-```text
-LogicBox/
-│
-├── LogicBox.py
-└── README.md
-```
-
-## Author
-
-**Drashti Vasani**
