@@ -1,7 +1,7 @@
 # 📊 Logic Box – Pattern Generator and Number Analyzer
 
-# **Author:** Drashti Vasani
-# **Course/Project:** Python Practical Assignment
+ **Author:** Drashti Vasani
+
 
 A Python-based console application designed to generate simple star patterns and analyze a range of numbers by identifying whether each number is **Even or Odd** and calculating the **sum of all numbers** in the selected range.
 
