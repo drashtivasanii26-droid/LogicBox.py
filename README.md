@@ -76,21 +76,6 @@ total = total + num
 
 ---
 
-## 📚 Concepts Covered
-
-* `while` loop
-* `for` loop
-* `if`, `elif`, `else`
-* `input()`
-* `int()` type conversion
-* `range()`
-* Modulus operator `%`
-* String multiplication
-* Variables
-* Arithmetic operations
-* Menu-driven programming
-* `break`
-* Console output
 
 ---
 
@@ -144,66 +129,4 @@ Exiting the program. Goodbye!
 ```
 
 ---
-
-## 🔄 Program Flow
-
-```text
-Start
-  ↓
-Display Menu
-  ↓
-Select an Option
-  ↓
- ┌─────────────────────────────┐
- │ 1 → Generate Pattern        │
- │ 2 → Analyze Number Range    │
- │ 3 → Exit Program            │
- └─────────────────────────────┘
-  ↓
-Perform Selected Operation
-  ↓
-Display Result
-  ↓
-Return to Menu
-  ↓
-Exit
-```
-
----
-
-## ⚠️ Important Code Correction
-
-To make the **Exit** option work correctly, change:
-
-```python
-elif choice == 1 or choice == 2 or choice == 3:
-```
-
-to:
-
-```python
-elif choice == 3:
-```
-
-So the correct menu condition should be:
-
-```python
-if choice == 1:
-    # Generate Pattern
-
-elif choice == 2:
-    # Analyze Range of Numbers
-
-elif choice == 3:
-    print("Exiting the program. Goodbye!")
-    break
-
-else:
-    print("Invalid choice. Please try again.")
-```
-
-
-
----
-
 
