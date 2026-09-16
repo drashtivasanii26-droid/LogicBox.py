@@ -8,9 +8,6 @@
 # ---------- Pattern Generator ----------
 
 
-for i in range(1, 6):
-    print("*" * i)
-
 while True:
     print("\nSelect an option:")
     print("1. Generate a Pattern")
